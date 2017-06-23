@@ -1,0 +1,72 @@
+.page
+	&_home
+		.title-page
+			&_home
+				position relative
+				top 300px
+				text-align center
+				color #fff
+				font-size 50px
+				
+.page
+	&_gallery
+		.title-page
+			&_gallery
+				color #000
+				font-size 60px
+				display inline-block
+				padding 10px
+				position relative
+				margin-bottom 100px
+				&::after
+				&::before
+					content ""
+					display inline-block
+					border-bottom 2px solid corpColor
+					width 51%
+					position absolute
+					bottom -20px
+				&::after
+					transform rotate(-10deg)
+					right 0
+				&::before
+					transform rotate(10deg)
+					left 0
+					
+.page
+	&_service
+		.title-page
+			&_service
+				font-size 60px
+				display inline-block
+				padding 10px 25px
+				border 2px solid #000
+				margin-bottom 70px
+				
+.page
+	&_about
+		.title-page
+			&_about
+				font-size 60px
+				padding 10px 0
+				margin-bottom 70px
+				text-align center
+				color #fff
+				background #ee964c
+				
+
+				
+@media tablet
+	.page
+		&_home
+			.title-page
+				&_home
+					top 150px
+					font-size 40px
+					
+@media phone
+	.page
+		&_home
+			.title-page
+				&_home
+					font-size 30px

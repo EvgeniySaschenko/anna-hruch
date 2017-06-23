@@ -1,0 +1,16 @@
+mixin b-page_gallery()
+	+b.SECTION.page_gallery#gallery
+		.container
+			+e.row_1
+				+b-title-page(gallery.title, 'gallery')
+			+e.row_2
+				+b-list-link-img(gallery.album, 'album')
+			+e.row_3
+				#gallery-album_nakrutki
+					+b-list-img-nobox(gallery.albumPhoto.nakrutki, 'gallery-album gallery-album_nakrutki')
+				#gallery-album_bukli
+					+b-list-img-nobox(gallery.albumPhoto.bukli, 'gallery-album gallery-album_bukli')
+				#gallery-album_pleteniya
+					+b-list-img-nobox(gallery.albumPhoto.pleteniya, 'gallery-album gallery-album_pleteniya')
+				#gallery-album_detskiye
+					+b-list-img-nobox(gallery.albumPhoto.detskiye, 'gallery-album gallery-album_detskiye')

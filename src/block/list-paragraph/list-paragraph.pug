@@ -1,0 +1,5 @@
+mixin b-list-paragraph(items, clsses)
+	+b.list-paragraph(class='_' + clsses)
+		each item, i in items
+			-num = i + 1
+			+e.item(class='_' + num)!= item

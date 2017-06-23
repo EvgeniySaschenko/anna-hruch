@@ -1,0 +1,172 @@
+.page
+	&_service
+		.list-array-word
+			&_service
+				max-width 810px
+				margin 0 auto
+				margin-bottom 70px
+				position relative
+				display flex
+				flex-direction row
+				justify-content space-between
+				align-items center
+				flex-wrap wrap
+				&::before
+				&::after
+					content ""
+					position absolute
+					top 0
+					display inline-block
+					height 100%
+					width 200px
+					border 1px solid #000
+				&::before
+					left 0
+					border-right-width 0
+				&::after
+					right 0
+					border-left-width 0
+					
+
+				.list-array-word
+					&__item-box
+						display flex
+						flex-direction column
+						justify-content center
+						align-items center
+						height 200px
+						width 200px
+						margin 25px
+						background-size cover
+						border-radius 50%
+						position relative
+						overflow hidden
+						color #fff
+						font-size 20px
+						&::before
+						&::after
+							content ""
+							position absolute
+							top 0
+							display inline-block
+							height 50%
+							width 50%
+						&::before
+							background rgba(0, 0, 0, .2)
+							left 0
+						&::after
+							background rgba(0, 0, 0, .3)
+							right 0
+						&_1
+							background url(../img/service/1.jpg)
+						&_2
+							background url(../img/service/2.jpg)
+						&_3
+							background url(../img/service/3.jpg)
+						&_4
+							background url(../img/service/4.jpg)
+						&_5
+							background url(../img/service/5.jpg)
+						&_6
+							background url(../img/service/6.jpg)
+					&__item-box-shadow
+						&::before
+						&::after
+							content ""
+							position absolute
+							bottom 0
+							display inline-block
+							height 50%
+							width 50%
+						&::before
+							background rgba(0, 0, 0, .4)
+							left 0
+						&::after
+							background rgba(0, 0, 0, .5)
+							right 0
+					&__item
+						text-align center
+						position relative
+						padding 1px 0
+						z-index 2
+						&_2
+							font-size 28px
+							
+
+.page
+	&_about
+		.list-array-word
+			&_advantages
+				display flex
+				flex-direction row
+				justify-content flex-start
+				align-items center
+				flex-wrap wrap
+				.list-array-word
+					&__item-box
+						height 125px
+						width 125px
+						border-radius 50%
+						margin 5px
+						padding 10px
+						color #fff
+						text-align center
+						display flex
+						flex-direction column
+						justify-content center
+						align-items center
+						&_1
+							background #f88b65
+						&_2
+							background #f15a23
+						&_3
+							background #ee1b24
+					&__item
+						padding 2px
+					&__item-box_2
+						.list-array-word
+							&__item_1
+								font-size 45px
+								
+
+
+@media tablet
+	.page
+		&_service
+			.list-array-word
+				&_service
+					max-width 500px
+					.list-array-word
+						&__item-box
+							height 180px
+							width 180px
+							margin 20px
+							
+	.page
+		&_about
+			.list-array-word
+				&_advantages
+					max-width 400px
+					justify-content center
+
+
+
+							
+
+@media phone
+	.page
+		&_service
+			.list-array-word
+				&_service
+					max-width 360px
+					.list-array-word
+						&__item-box
+							height 150px
+							width 150px
+							margin 10px
+							
+	.page
+		&_about
+			.list-array-word
+				&_advantages
+					margin 0 auto

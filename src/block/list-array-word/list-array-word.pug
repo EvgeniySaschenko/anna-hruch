@@ -1,0 +1,9 @@
+mixin b-list-array-word(items, clsses)
+	+b.list-array-word(class='_' + clsses)
+		each itemArr, i in items
+			- num1 = i + 1
+			+e.item-box(class='_' + num1)
+				+e.item-box-shadow(class='_' + num1)
+					each item, i in itemArr
+						- num2 = i + 1
+						+e.item(class='_' + num2)!= item

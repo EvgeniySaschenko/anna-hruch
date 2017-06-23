@@ -1,0 +1,16 @@
+mixin b-page_about()
+	+b.SECTION.page_about#about
+		+e.row_1
+			+b-title-page(about.title, 'about')
+		+e.row_2
+			+e.col_1
+				+b.box-master
+					+b-img-box(about.photoMaster, 'photo-master')
+					+b-array-word(about.nameMaster, 'name-master')
+			+e.col_2
+				+b-array-word(about.titleTextMaster, 'title-text-master')
+				+b-list-array-word(about.advantages, 'advantages')
+				+b-list-paragraph(about.textMaster, 'text-master')
+				+b-list-name-link(about.feedback, 'feedback')
+		+e.row_3
+			+b-list-link-img(about.diploma, 'diploma')

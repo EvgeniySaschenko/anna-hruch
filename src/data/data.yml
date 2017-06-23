@@ -1,0 +1,162 @@
+header:
+  nav:
+  - name: 'Главная'
+    href: '#home'
+  - name: 'Галерея'
+    href: '#gallery'
+  - name: 'Услуги'
+    href: '#service'
+  - name: 'Обо мне'
+    href: '#about'
+  feedback:
+    - name: 'Анна' 
+      text: '+38 (095) 791-50-40'
+      href: 'tel:+380957915040'
+
+home: 
+  title: 'Свадебные и вечерние <br> прически'
+  logo:
+    src: 'img/logo.svg'
+
+gallery:
+  title: 'Галерея'
+  album:
+    - name: 'Накрутки'
+      src: 'img/gallery/nakrutki.jpg'
+      href: '#gallery-album_nakrutki'
+    - name: 'Букли'
+      src: 'img/gallery/bukli.jpg'
+      href: '#gallery-album_bukli'
+    - name: 'Плетения'
+      src: 'img/gallery/pleteniya.jpg'
+      href: '#gallery-album_pleteniya'
+    - name: 'Детские'
+      src: 'img/gallery/detskiye.jpg'
+      href: '#gallery-album_detskiye'
+  albumPhoto:
+    nakrutki:
+      - src: 'img/gallery/nakrutki/1.jpg'
+      - src: 'img/gallery/nakrutki/2.jpg'
+      - src: 'img/gallery/nakrutki/3.jpg'
+      - src: 'img/gallery/nakrutki/4.jpg'
+      - src: 'img/gallery/nakrutki/5.jpg'
+      - src: 'img/gallery/nakrutki/6.jpg'
+      - src: 'img/gallery/nakrutki/7.jpg'
+      - src: 'img/gallery/nakrutki/8.jpg'
+      - src: 'img/gallery/nakrutki/9.jpg'
+      - src: 'img/gallery/nakrutki/10.jpg'
+    bukli:
+      - src: 'img/gallery/bukli/1.jpg'
+      - src: 'img/gallery/bukli/2.jpg'
+      - src: 'img/gallery/bukli/3.jpg'
+      - src: 'img/gallery/bukli/4.jpg'
+      - src: 'img/gallery/bukli/5.jpg'
+      - src: 'img/gallery/bukli/6.jpg'
+      - src: 'img/gallery/bukli/7.jpg'
+      - src: 'img/gallery/bukli/8.jpg'
+      - src: 'img/gallery/bukli/9.jpg'
+      - src: 'img/gallery/bukli/10.jpg'
+    pleteniya:
+      - src: 'img/gallery/pleteniya/1.jpg'
+      - src: 'img/gallery/pleteniya/2.jpg'
+      - src: 'img/gallery/pleteniya/3.jpg'
+      - src: 'img/gallery/pleteniya/4.jpg'
+      - src: 'img/gallery/pleteniya/5.jpg'
+      - src: 'img/gallery/pleteniya/6.jpg'
+      - src: 'img/gallery/pleteniya/7.jpg'
+      - src: 'img/gallery/pleteniya/8.jpg'
+      - src: 'img/gallery/pleteniya/9.jpg'
+      - src: 'img/gallery/pleteniya/10.jpg'
+    detskiye:
+      - src: 'img/gallery/detskiye/1.jpg'
+      - src: 'img/gallery/detskiye/2.jpg'
+      - src: 'img/gallery/detskiye/3.jpg'
+      - src: 'img/gallery/detskiye/4.jpg'
+      - src: 'img/gallery/detskiye/5.jpg'
+      - src: 'img/gallery/detskiye/6.jpg'
+      - src: 'img/gallery/detskiye/7.jpg'
+      - src: 'img/gallery/detskiye/8.jpg'
+      - src: 'img/gallery/detskiye/9.jpg'
+      - src: 'img/gallery/detskiye/10.jpg'
+service:
+  title: 'Услуги'
+  listService:
+    -
+      - Свадебная
+      - Прическа
+      - от 500 грн.
+    -
+      - Пробный
+      - Макияж
+      - от 200 грн.
+    -
+      - Укладка
+      - от 100грн.
+    -
+      - Повседневная
+      - Прическа
+      - от 150 грн.
+    -
+      - Макияж
+      - от 300 грн.
+    -
+      - на дом
+      - Выезд
+      - от 300 грн.
+about: 
+  title: 'Обо мне'
+  photoMaster: 
+    src: 'img/master.jpg'
+  nameMaster:
+    - Мастер
+    - Анна Хрущ  
+  titleTextMaster: 
+    - 'Привет'
+    - 'немного обо мне:'
+  advantages: 
+    -
+      - 'Призовые места'
+      - 'в конкурсах'
+    -
+      - '15'
+      - 'лет опыта'
+    -
+      - Свадебные 
+      - и вечерние 
+      - прически
+  textMaster:
+    - 'Меня зовут Аня, я специалист в сфере парикмахерских услуг с опытом работы более 15 лет. Основное направление моей деятельности это свадебные и вечерние прически. Подтверждением моего высокого профессионального уровня являются призовые места в конкурсах и довольные клиенты.' 
+    - 'Я выполняю как существующие так и индивидуальные креативные работы.'
+  feedback:
+    - name: 'Телефон:' 
+      text: '+38 (095) 791-50-40'
+      href: 'tel:+380957915040'
+    - name: 'E-mail:' 
+      text: 'info@anna-hruch.com.ua'
+      href: 'mailto:info@anna-hruch.com.ua'
+    - name: 'Киев' 
+      text: ''
+      href: ''
+
+  diploma:
+    - href: 'img/diploms/diplom_1.jpg'
+      src: 'img/diploms/diplom_1_small.jpg'
+    - href: 'img/diploms/diplom_2.jpg'
+      src: 'img/diploms/diplom_2_small.jpg'
+    - href: 'img/diploms/diplom_3.jpg'
+      src: 'img/diploms/diplom_3_small.jpg'
+    - href: 'img/diploms/diplom_4.jpg'
+      src: 'img/diploms/diplom_4_small.jpg'
+    - href: 'img/diploms/diplom_5.jpg'
+      src: 'img/diploms/diplom_5_small.jpg'
+    - href: 'img/diploms/diplom_6.jpg'
+      src: 'img/diploms/diplom_6_small.jpg'
+
+footer:
+  feedback:
+    - name: 'Анна' 
+      text: '+38 (095) 791-50-40'
+      href: 'tel:+380957915040'
+  copyright:
+    - '© Anna Hruch.'
+    - '2017г.'

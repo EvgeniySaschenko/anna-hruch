@@ -1,0 +1,7 @@
+mixin b-page_service()
+	+b.SECTION.page_service#service
+		.container
+			+e.row_1
+				+b-title-page(service.title, 'service')
+			+e.row_2
+				+b-list-array-word(service.listService, 'service')

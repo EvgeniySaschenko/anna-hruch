@@ -1,0 +1,6 @@
+mixin b-list-img(items, classes)
+	+b.list-img(class='_' + classes)
+		each item, i in items
+			- num = i + 1
+			+e.item(class='_' + num)
+				+e.IMG.img(class='_' + num, src=item.src, alt="img")

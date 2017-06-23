@@ -1,0 +1,5 @@
+mixin b-list-img-nobox(items, clsses)
+	+b.list-img-nobox(class="_" + clsses)
+		each item, i in items
+			- num = i + 1
+			+e.IMG.img(class='_' + num, src=item.src, alt="img")

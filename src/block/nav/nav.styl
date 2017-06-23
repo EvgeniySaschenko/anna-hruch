@@ -1,0 +1,72 @@
+.header
+	.nav
+		height 50px
+		&_header
+			display flex
+			flex-direction row
+			justify-content center
+			align-items center
+			.nav
+				&__item
+					padding 0 10px
+					line-height 50px
+				&__link
+					font-size 20px
+					letter-spacing 1px
+					color corpColor
+					display inline-block
+					&:hover
+						text-decoration underline
+			.toggler
+				display none
+				
+
+@media tablet
+	@keyframes togglerCircle
+		from
+			border-radius 0
+		to
+			border-radius 50%
+
+	.header
+		.nav
+			&_header
+				justify-content flex-start
+				.nav
+					&__item
+						display none
+				.toggler
+					margin-left 10px
+					display flex
+					flex-direction column
+					justify-content center
+					align-items center
+					box-sizing padding-box
+					width 40px
+					height 40px
+					border 3px solid corpColor
+					cursor pointer
+					&:hover
+						animation togglerCircle .5s forwards
+					&__row
+						width 25px
+						border-bottom 4px solid #fff
+						display block
+						margin 3px auto
+						
+	.header
+		.nav_header.active
+			display block
+			text-align center
+			.nav
+				&__item
+					display block
+					background rgba(4, 4, 4, .7)
+
+			.toggler
+				border-radius 50%
+				&:hover
+					border-radius 50%
+				&__row
+					width 20px
+					border-bottom-width 3px
