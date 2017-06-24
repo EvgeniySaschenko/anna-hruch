@@ -24,7 +24,7 @@
 				
 				
 
-@media tablet
+@media tablet		
 	@keyframes togglerCircle
 		from
 			border-radius 0
@@ -51,7 +51,9 @@
 					cursor pointer
 					border-radius 0
 					&:hover
-						animation togglerCircle .5s forwards
+						.toggler__row
+							width 20px
+							border-bottom-width 3px
 					&__row
 						width 25px
 						border-bottom 4px solid #fff
@@ -69,6 +71,7 @@
 
 			.toggler
 				border-radius 50%
+				animation togglerCircle .5s
 				&__row
 					width 20px
 					border-bottom-width 3px
